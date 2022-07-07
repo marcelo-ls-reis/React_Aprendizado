@@ -22,7 +22,7 @@ const Headers = (props) => {
     return (
         <div>
             <Navbar color="primary" dark expand="md">
-                <NavbarBrand href="/">Celke</NavbarBrand>
+                <NavbarBrand href="/">Pagina Inicial</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
@@ -34,23 +34,25 @@ const Headers = (props) => {
                         </NavItem>
                         <UncontrolledDropdown nav inNavbar>
                             <DropdownToggle nav caret>
-                                Options
+                                Menu
                 </DropdownToggle>
                             <DropdownMenu right>
                                 <DropdownItem>
-                                    Option 1
+                                    Pagina 01
                   </DropdownItem>
                                 <DropdownItem>
-                                    Option 2
+                                    Pagina 02
                   </DropdownItem>
-                                <DropdownItem divider />
+                                <DropdownItem> 
+                                   Pagina 03
+                  </DropdownItem>
                                 <DropdownItem>
-                                    Reset
+                                    Pagina 04
                   </DropdownItem>
                             </DropdownMenu>
                         </UncontrolledDropdown>
                     </Nav>
-                    <NavbarText>Simple Text</NavbarText>
+                    <NavbarText>Voltar</NavbarText>
                 </Collapse>
             </Navbar>
         </div>

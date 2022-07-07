@@ -6,8 +6,8 @@ const Article = (props) => {
     <div>
       <Jumbotron fluid>
         <Container fluid>
-          <h1 className="display-3">Titulo do artigo</h1>
-          <p className="lead">Conteúdo do artigo. This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          <h1 className="display-3">Aprendizado React_Bootstrap</h1>
+          <p className="lead">Pagina usada para treinar basico do React e React_Bootstrap</p>
         </Container>
       </Jumbotron>
     </div>
