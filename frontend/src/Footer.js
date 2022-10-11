@@ -7,9 +7,9 @@ const Footer = (props) => {
       <thead>
         <tr>
           <th>#</th>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>Username</th>
+          <th>Nome</th>
+          <th>Sobrenome</th>
+          <th>Usuário</th>
         </tr>
       </thead>
       <tbody>
